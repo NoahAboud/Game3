@@ -6,15 +6,17 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+  - ScreenShake
+  - Enemy2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
-  - 
+  - Post Processing
   - 
   - 
   - 

@@ -161,3 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1df6fbba71c4441468106b21180b29f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitEffectPrefab: {fileID: 4515175866787666638, guid: 01d396584bf016b4780bb3beae6806a0, type: 3}
+  hitEffectPrefab2: {fileID: 4515175866787666638, guid: 990eec52569aaa747b2d16d1dab12615, type: 3}
+  hitEffectPrefab3: {fileID: 4515175866787666638, guid: 1d9b775a853c1854a86c59317de838ae, type: 3}
+  deathSound: {fileID: 8300000, guid: 3d3dfd5cc436dfe43bb99952e7ceca7b, type: 3}

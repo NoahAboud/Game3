@@ -12,13 +12,13 @@ public class playerHealth : MonoBehaviour
     public TextMeshProUGUI hp;
     public GameObject gameOverUI;
 
-    
+    private Animator anim;
     
     void Start()
     {
         currentHealth = maxHealth;
         UpdatehpUI();
-        
+        anim = GetComponent<Animator>();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -26,6 +26,12 @@ public class playerHealth : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(1);
+            anim.SetTrigger("hit");
+        }
+        if (collision.gameObject.CompareTag("Enemy2"))
+        {
+            TakeDamage(1);
+            anim.SetTrigger("hit");
         }
     }
 
